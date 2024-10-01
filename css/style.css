@@ -1,0 +1,20 @@
+body{
+    background-color: D6EFD8;
+    color: rgb(26, 83, 25);
+    text-align: justify;
+}
+
+hr {
+    border: none;
+    height: 5px; 
+    background-color: #4caf50; /* Color de la línea */
+    margin: 1px 0; 
+}
+
+.footer {
+    background-color: #004d40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+  }
