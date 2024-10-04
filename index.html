@@ -9,6 +9,47 @@
 </head>
   <body>
 
+    <!-- Inicio de OffCanva -->
+<div class="offcanvas offcanvas-start" id="demo">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title">redes</h1>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Facebook.</p>
+    <p>Whatsapp.</p>
+    <button class="btn btn-secondary" type="button">A Button</button>
+  </div>
+</div>
+     <!-- Fin de OffCanva -->
+
+     <!--Inicio Codigo Modal -->
+<div class="modal" id="perfil">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Sobre mi.</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <h4>Ingeniero de meduzas y especializados en atraparlas.</h4>
+        <p>Soy un experto en meduza con mas de 20 años de experiencia, para cualquier información ir a perfin completo</p>.
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+     <!-- Fin codigo Modal -->
+
     <!--Inicio Codigo Modal -->
 <div class="modal" id="myModal">
   <div class="modal-dialog">
@@ -147,7 +188,26 @@
     <div class="container-fluid">
         <button type="button" class="btn btn-success">Success</button>
         <h2>Container Fluid</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sit corrupti distinctio inventore. Nemo ut saepe sequi quibusdam. Laudantium ullam obcaecati molestiae rem in. Architecto mollitia est doloribus exercitationem asperiores.</p>
+      <!-- inicio de card -->
+      <div class="card" style="width:400px">
+        <img class="card-img-top" src="img/patricio estrella.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Patrcio Estrella</h4>
+          <p class="card-text">Es experto en atrapar meduzas.</p>
+          <a href="#" class="btn btn-primary">Ver perfil completo.</a>
+
+          <!-- Inicio boton Nodal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#perfil">
+            Descripción
+          </button>
+           <!-- Fin boton Modal -->
+          
+        </div>
+      </div>
+       <!-- fin de card -->
+
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sit corrupti distinctio inventore. Nemo ut saepe sequi quibusdam. Laudantium ullam obcaecati molestiae rem in. Architecto mollitia est doloribus exercitationem asperiores.</p>
 
         <h2>Dividir página web</h2>
         <h2>Grid - 12 colomnas</h2>
@@ -180,7 +240,12 @@
         <div class="row">
             <div class="col-sm-6" style="background-color: #1A5319; color: antiquewhite;">
                 <h1>Primeiro 1</h1>
+
                 <button type="button" class="btn btn-dark">Soy negro</button>
+                <!-- Button OffCanva -->
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                  Ver OffCanva
+                </button>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo officia ipsam porro eum? Distinctio cumque, obcaecati natus voluptates numquam unde, ipsum dolores maxime odit eaque tenetur! Sit beatae quae ex!</p>
             </div>
 
@@ -195,6 +260,11 @@
 
                 <h1>Terceira</h1>
                 <button type="button" class="btn btn-warning">Soy amarillo.</button>
+                <!-- Inicio boton Nodal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                Descripción
+              </button>
+               <!-- Fin boton Modal -->
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur adipisci odio repudiandae minus animi quaerat tenetur mollitia, obcaecati laudantium voluptatum? Nisi voluptates numquam voluptatibus accusamus provident maiores iure quos facilis!</p>
             </div>
             <hr>
