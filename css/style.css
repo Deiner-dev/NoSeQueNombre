@@ -1,17 +1,17 @@
-body{
-    background-color: D6EFD8;
+body {
+    background-color: #D6EFD8; /* Color corregido */
     color: rgb(26, 83, 25);
     text-align: justify;
-}
-
-hr {
+  }
+  
+  hr {
     border: none;
-    height: 5px; 
-    background-color: #4caf50; /* Color de la línea */
-    margin: 1px 0; 
-}
-
-.footer {
+    height: 5px;
+    background-color: #4caf50;
+    margin: 1px 0;
+  }
+  
+  .footer {
     background-color: #004d40;
     color: white;
     padding: 20px 0;
@@ -19,3 +19,6 @@ hr {
     margin-top: 40px;
   }
 
+  
+  
+  
